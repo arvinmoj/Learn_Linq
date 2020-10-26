@@ -1,0 +1,12 @@
+/Users/macbook/Desktop/Learn/Linq/bin/Debug/netcoreapp3.1/Linq.deps.json
+/Users/macbook/Desktop/Learn/Linq/bin/Debug/netcoreapp3.1/Linq.runtimeconfig.json
+/Users/macbook/Desktop/Learn/Linq/bin/Debug/netcoreapp3.1/Linq.runtimeconfig.dev.json
+/Users/macbook/Desktop/Learn/Linq/bin/Debug/netcoreapp3.1/Linq.dll
+/Users/macbook/Desktop/Learn/Linq/bin/Debug/netcoreapp3.1/Linq.pdb
+/Users/macbook/Desktop/Learn/Linq/obj/Debug/netcoreapp3.1/Linq.csprojAssemblyReference.cache
+/Users/macbook/Desktop/Learn/Linq/obj/Debug/netcoreapp3.1/Linq.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/Learn/Linq/obj/Debug/netcoreapp3.1/Linq.AssemblyInfo.cs
+/Users/macbook/Desktop/Learn/Linq/obj/Debug/netcoreapp3.1/Linq.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/Learn/Linq/obj/Debug/netcoreapp3.1/Linq.dll
+/Users/macbook/Desktop/Learn/Linq/obj/Debug/netcoreapp3.1/Linq.pdb
+/Users/macbook/Desktop/Learn/Linq/obj/Debug/netcoreapp3.1/Linq.genruntimeconfig.cache
