@@ -96,6 +96,73 @@ namespace Linq
             // Count Conditional
             int[] Conditional = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
             int result26 = (from c in Conditional select c).Count(n => n % 2 == 1);
+
+
+            // Join
+
+
+                        List<Person> people = new List<Person>();
+
+            Person p1 = new Person()
+            {
+                Id = 1 ,
+                Name  = "Arvin",
+                Family = "Moj",
+                Age = 20
+            };
+
+            people.Add(p1);
+
+            Person p2 = new Person()
+            {
+                Id = 2 ,
+                Name = "Shervin",
+                Family = "Khodami", 
+                Age = 21
+            };
+
+            people.Add(p2);
+
+            Person p3 = new Person()
+            {
+                Id = 3 ,
+                Name = "Arina",
+                Family = "Rahimi", 
+                Age = 19
+            };
+
+            people.Add(p3);
+
+            List<PersonCar> cars = new List<PersonCar>();
+
+            PersonCar p1car1 = new PersonCar()
+            {
+                Id = 1 , 
+                CarName = "Benz",
+                CarMoldel = "GTR AMG"
+            };
+
+            cars.Add(p1car1);
+
+            PersonCar p2car2 = new PersonCar()
+            {
+                Id = 2 ,
+                CarName = "Lexus" ,
+                CarMoldel = "NX 400"
+            };
+
+            cars.Add(p2car2);
+
+            var join = (from p in people join c in cars on p.Id equals c.Id 
+                        select new 
+                        {
+                            p.Id ,
+                            p.Name ,
+                            p.Family , 
+                            p.Age ,
+                            c.CarName ,
+                            c.CarMoldel ,
+                        }).ToList();
             
         }
     }
